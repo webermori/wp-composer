@@ -13,3 +13,9 @@ __
 
 _.*
 __.*
+
+public/_
+public/__
+
+public/_.*
+public/__.*
