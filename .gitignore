@@ -1,0 +1,15 @@
+public/vendor/
+public/wp/
+public/wp-config.php
+public/wp-config.*.php
+!public/wp-config.sample.php
+public/wp-content/debug.log
+public/wp-content/cache/
+public/wp-content/uploads/
+public/wp-content/plugins/
+
+_
+__
+
+_.*
+__.*
