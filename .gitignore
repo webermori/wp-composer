@@ -1,21 +1,63 @@
-public/vendor/
-public/wp/
+############ PRODUCTION ############
+### FOLDERS ###
+node_modules/
+bower_components/
+vendor/
+maps/
+!backups/
+temp/
+test/
+tests/
+teste/
+testes/
+.phpintel/
+dev/
+dist/
+
+### FILES ###
+composer.lock
+erros.txt
+.DS_Store
+.log
+package-lock.json
+.editorconfig
+*.map
+
+@init.php
+
+*_
+*__
+*_.*
+*__.*
+
+############ WORDPRESS ############
+### COMPOSER ###
+public/core/
+
+### FOLDERS ###
+*.log
 public/wp-config.php
-public/wp-config.*.php
-!public/wp-config.sample.php
-public/wp-content/debug.log
-public/wp-content/cache/
-public/wp-content/uploads/
-public/wp-content/plugins/
+public/app/advanced-cache.php
+public/app/backup-db/
+public/app/backups/
+public/app/blogs.dir/
+public/app/cache/
+public/app/upgrade/
+public/app/uploads/
+public/app/wp-cache-config.php
 
-_
-__
+### FILES ###
+public/.htaccess
+public/license.txt
+public/readme.html
+public/sitemap.xml
+public/sitemap.xml.gz
 
-_.*
-__.*
+############ WORDPRESS CUSTOM ############
 
-public/_
-public/__
+themes/twenty*
+public/app/themes/twenty*
+languages/themes/twenty*
+public/app/plugins/*
+public/app/languages/themes/twenty*
 
-public/_.*
-public/__.*

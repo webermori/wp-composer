@@ -1,0 +1,34 @@
+{
+  "name": "wp-composer",
+  "config": {
+    "vendor-dir": "public/vendor"
+  },
+  "repositories": [{
+    "type": "composer",
+    "url": "https://wpackagist.org"
+  }],
+  "require": {
+    "johnpbloch/wordpress": "^4.8",
+    "composer/installers": "~1.0",
+    "wpackagist-plugin/advanced-custom-fields":"5.6.10",
+    "wpackagist-plugin/wp-admin-ui-customize":"1.5.11",
+    "wpackagist-plugin/ag-custom-admin":"6.2",
+    "wpackagist-plugin/codepress-admin-columns":"3.1.10",
+    "wpackagist-plugin/adminimize":"1.11.4",
+    "wpackagist-plugin/wp-optimize":"2.2.4",
+    "wpackagist-plugin/disable-wordpress-updates":"1.6.3",
+    "wpackagist-plugin/disable-comments":"1.7.1"
+  },
+  "extra": {
+    "wordpress-install-dir": "public/core",
+    "installer-paths": {
+      "public/app/plugins/{$name}/": ["type:wordpress-plugin"]
+    }
+  },
+
+  "autoload": {
+    "files": []
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
